@@ -1,0 +1,28 @@
+*{
+    margin-left: 5px;
+}
+nav > ul{
+    display: flex;
+}
+nav li{
+    list-style: none;
+    margin-right: 10px;
+    padding: 5px;
+}
+nav li:hover{
+    background-color: lightgray;
+}
+nav li a{
+    text-decoration: none;
+    color: black;
+}
+/* nastet menu */
+nav li .dropdown{
+    display: none;
+    position: absolute;
+    background-color: beige;
+    padding-left: 10px;
+}
+nav li:hover > .dropdown{
+    display: block;
+}

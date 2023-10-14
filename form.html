@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>jamal ma er pitha</title>
+    <!-- <link rel="stylesheet" href="blog.css"> -->
+    <link rel="stylesheet" href="nav.css">
     <style>
         label{
             display: block;
@@ -19,6 +21,20 @@
 </head>
 <body>
     <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="blog.html">About </a></li>
+                <li><a href="form.html">Form</a>
+                    <ul class="dropdown">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="blog.html">About </a></li>
+                        <li><a href="form.html">Form</a></li>
+                        <li><a href="table.html">Table</a></li>
+                    </ul></li>
+                <li><a href="table.html">Table</a></li>
+            </ul>
+        </nav>
         
     </header>
     <main>
@@ -32,7 +48,7 @@
                     <input type="text" placeholder="Your Email" name="" id="email">
                 </label>
                 <label for="phone">Your phn:
-                    <input type="number" placeholder="Your Number" id="number">
+                    <input type="text" placeholder="Your Number" id="number">
                 </label>
                 <fieldset>
                     <legend>Pick one pitha</legend>
@@ -57,7 +73,7 @@
                 </fieldset>
                 <fieldset>
                     <legend>Special area</legend>
-                    <textarea name="" id="" cols="30" rows="10"></textarea>
+                    <textarea name="" id="" cols="40" rows="10"></textarea>
                   
                     
                 </fieldset>
